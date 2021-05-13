@@ -1,0 +1,30 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irlen3/1_working-enviroment.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Irina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irlen3/1_working-enviroment/issues"
+  },
+  "homepage": "https://github.com/irlen3/1_working-enviroment#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "http-server": "^0.12.3"
+  }
+}
